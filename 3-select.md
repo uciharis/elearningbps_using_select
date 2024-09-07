@@ -56,3 +56,12 @@ untuk membatasi jumlah row yang ditampilkan, tambahkan LIMIT (jumlah baris). con
 `
 SELECT nama_pegawai FROM tabel_pegawai LIMIT 4;
 `
+
+### Penggunaan SELECT DISTINCT
+
+digunakan untuk menampilkan data yang unik (tidak duplikat). contoh penggunaan :
+
+`
+SELECT DISTINCT nama_pegawai, jenis_kelamin FROM tabel_pegawai;
+`
+
