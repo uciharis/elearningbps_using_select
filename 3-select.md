@@ -41,3 +41,18 @@ berdasarkan gambar 1, misal kita mengambil data nama_pegawai. maka sintaksnya ad
 SELECT nama_pegawai FROM tabel_pegawai;
 `
 
+### Mengambil lebih dari 1 kolom pada suatu tabel
+
+Sintaknya sama, hanya berisi tambahan beberapa kolom saja. Misalkan kita akan mengambil kolom nama_pegawai dan jabatan, maka :
+
+`
+SELECT nama_pegawai, jabatan FROM tabel_pegawai;
+`
+
+### membatasi pengambilan jumlah row
+
+untuk membatasi jumlah row yang ditampilkan, tambahkan LIMIT (jumlah baris). contohnya :
+
+`
+SELECT nama_pegawai FROM tabel_pegawai LIMIT 4;
+`
