@@ -6,7 +6,7 @@ SELECT digunakan untuk menentukan kolom yang ingin diambil.
 
 SELECT tidak berdiri sendiri, argumennya diikuti FROM. Formatnya adalah sebagai berikut :
 
-> SELECT nama_kolom1, nama_kolom2, ...
+> SELECT nama_kolom1, nama_kolom2, ... 
 
 > FROM nama_tabel1, ...
 
@@ -26,7 +26,7 @@ tanda titik koma (;) adalah penanda mengakhiri perintah pada SQL.
 Untuk mengambil seluruh kolom pada tabel_pegawai, sintaknya sebagai berikut :
 
 `
-SELECT * FROM tabel_pegawai
+SELECT * FROM tabel_pegawai ;
 `
 
 ### Mengambil satu kolom dari tabel
