@@ -23,10 +23,22 @@ contoh :
 SELECT * FROM tabel_visitor WHERE nama_pengunjung = 'Berliani Indah' OR nama_pengunjung = 'Mutiara Ayu' ;
 `
 
-### Filter menggunakan value
+### WHERE menggunakan value
 
 sintak sama seperti sebelumnya, hanya saja menggunakan argumen nilai. contohnya sebagai berikut :
 
 `
-SELECT * FROM tabel_visitor WHERE umur < 20;
+SELECT * FROM tabel_visitor WHERE umur < 20 ;
 `
+### Where menggunakan operand AND
+
+seperti sintaks sebelumnya, hanya mengganti operand OR menjadi AND.
+
+data akan ditampilkan jika sejumlah kondisi terpenuhi. jika tidak, maka tidak akan ditampilkan.
+
+contoh :
+
+`
+SELECT * FROM tabel_visitor WHERE nama_pengunjung = 'Anisa Yuliastuti' AND umur > 20;
+`
+
