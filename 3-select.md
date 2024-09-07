@@ -64,4 +64,3 @@ digunakan untuk menampilkan data yang unik (tidak duplikat). contoh penggunaan :
 `
 SELECT DISTINCT nama_pegawai, jenis_kelamin FROM tabel_pegawai;
 `
-
