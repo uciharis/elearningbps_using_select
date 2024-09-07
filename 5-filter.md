@@ -42,3 +42,8 @@ contoh :
 SELECT * FROM tabel_visitor WHERE nama_pengunjung = 'Anisa Yuliastuti' AND umur > 20;
 `
 
+berikut contoh sintak dari final projek elearning SELECT :
+
+`
+SELECT kode_barang, nama_barang, qty, harga_satuan, qty * harga_satuan AS harga_total FROM tabel_persediaan WHERE harga_total >= 150000 ORDER BY harga_total DESC ;
+`
